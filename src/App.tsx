@@ -14,11 +14,11 @@ function App() {
       <NetworkProvider>
         <Layout>
           <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/network" element={<NetworkSimulation />} />
-            <Route path="/sensors" element={<SensorData />} />
-            <Route path="/energy" element={<EnergyAnalysis />} />
-            <Route path="/security" element={<Security />} />
+            <Route path="/Smart-Home-WSN/" element={<Dashboard />} />
+            <Route path="/Smart-Home-WSN/network" element={<NetworkSimulation />} />
+            <Route path="/Smart-Home-WSN/sensors" element={<SensorData />} />
+            <Route path="/Smart-Home-WSN/energy" element={<EnergyAnalysis />} />
+            <Route path="/Smart-Home-WSN/security" element={<Security />} />
           </Routes>
         </Layout>
       </NetworkProvider>
