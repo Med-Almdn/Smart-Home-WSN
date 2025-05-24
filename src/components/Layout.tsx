@@ -23,7 +23,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="flex items-center justify-between px-4 py-6 border-b border-slate-700">
           <div className="flex items-center space-x-2">
             <Network className="w-8 h-8 text-blue-400" />
-            <span className="text-xl font-semibold">NUIST WSN SmartHome</span>
+            <span className="text-xl font-semibold">Nuist Smart Home</span>
           </div>
           <button onClick={toggleSidebar} className="p-1 rounded-md md:hidden hover:bg-slate-700">
             <X className="w-6 h-6" />
