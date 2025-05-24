@@ -40,7 +40,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Smart-Home-WSN/network" className={({ isActive }) => 
+              <NavLink to="/Smart-Home-WSN/network/" className={({ isActive }) => 
                 `flex items-center px-4 py-3 rounded-lg transition-colors ${isActive ? 'bg-blue-600 text-white' : 'text-gray-300 hover:bg-slate-700'}`
               }>
                 <Network className="w-5 h-5 mr-3" />
@@ -48,7 +48,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Smart-Home-WSN/sensors" className={({ isActive }) => 
+              <NavLink to="/Smart-Home-WSN/sensors/" className={({ isActive }) => 
                 `flex items-center px-4 py-3 rounded-lg transition-colors ${isActive ? 'bg-blue-600 text-white' : 'text-gray-300 hover:bg-slate-700'}`
               }>
                 <Thermometer className="w-5 h-5 mr-3" />
@@ -56,7 +56,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Smart-Home-WSN/energy" className={({ isActive }) => 
+              <NavLink to="/Smart-Home-WSN/energy/" className={({ isActive }) => 
                 `flex items-center px-4 py-3 rounded-lg transition-colors ${isActive ? 'bg-blue-600 text-white' : 'text-gray-300 hover:bg-slate-700'}`
               }>
                 <Battery className="w-5 h-5 mr-3" />
@@ -64,7 +64,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Smart-Home-WSN/security" className={({ isActive }) => 
+              <NavLink to="/Smart-Home-WSN/security/" className={({ isActive }) => 
                 `flex items-center px-4 py-3 rounded-lg transition-colors ${isActive ? 'bg-blue-600 text-white' : 'text-gray-300 hover:bg-slate-700'}`
               }>
                 <Shield className="w-5 h-5 mr-3" />
